@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4294A561-821C-466C-BC68-4FCC500CA664}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MathApps</RootNamespace>
+    <AssemblyName>MathApps</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="6_SmithNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6_SmithNumbers.Designer.cs">
+      <DependentUpon>6_SmithNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4_VowelOrConsonant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4_VowelOrConsonant.Designer.cs">
+      <DependentUpon>4_VowelOrConsonant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5_IsItAPrimeNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5_IsItAPrimeNumber.Designer.cs">
+      <DependentUpon>5_IsItAPrimeNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6_SmithNumbersCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6_SmithNumbersCopy.Designer.cs">
+      <DependentUpon>6_SmithNumbersCopy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7_PrimeFactors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7_PrimeFactors.Designer.cs">
+      <DependentUpon>7_PrimeFactors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="8_SumOfDigits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8_SumOfDigits.Designer.cs">
+      <DependentUpon>8_SumOfDigits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="9_PerfectNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="9_PerfectNumbers.Designer.cs">
+      <DependentUpon>9_PerfectNumbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="10_PalindromicNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10_PalindromicNumber.Designer.cs">
+      <DependentUpon>10_PalindromicNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1_GuessTheNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1_GuessTheNumber.Designer.cs">
+      <DependentUpon>1_GuessTheNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0KdvHesaplama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0KdvHesaplama.Designer.cs">
+      <DependentUpon>0KdvHesaplama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2_Self-Guessing Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2_Self-Guessing Game.Designer.cs">
+      <DependentUpon>2_Self-Guessing Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3_WordOrNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3_WordOrNumber.Designer.cs">
+      <DependentUpon>3_WordOrNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="6_SmithNumbers.resx">
+      <DependentUpon>6_SmithNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4_VowelOrConsonant.resx">
+      <DependentUpon>4_VowelOrConsonant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5_IsItAPrimeNumber.resx">
+      <DependentUpon>5_IsItAPrimeNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6_SmithNumbersCopy.resx">
+      <DependentUpon>6_SmithNumbersCopy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_PrimeFactors.resx">
+      <DependentUpon>7_PrimeFactors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8_SumOfDigits.resx">
+      <DependentUpon>8_SumOfDigits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="9_PerfectNumbers.resx">
+      <DependentUpon>9_PerfectNumbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10_PalindromicNumber.resx">
+      <DependentUpon>10_PalindromicNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1_GuessTheNumber.resx">
+      <DependentUpon>1_GuessTheNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0KdvHesaplama.resx">
+      <DependentUpon>0KdvHesaplama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2_Self-Guessing Game.resx">
+      <DependentUpon>2_Self-Guessing Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3_WordOrNumber.resx">
+      <DependentUpon>3_WordOrNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
